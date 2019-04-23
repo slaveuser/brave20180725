@@ -1,0 +1,10 @@
+Import-Package: \
+  !zipkin,\
+  !zipkin.internal,\
+  !zipkin2.internal,\
+  *
+Export-Package: \
+	brave,\
+	brave.propagation,\
+	brave.sampler,\
+	brave.internal;braveinternal=true;mandatory:=braveinternal
